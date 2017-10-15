@@ -1,0 +1,25 @@
+{
+  "name": "foxsec",
+  "version": "1.0.0",
+  "description": "full dynamic privet password manager made by jquery.",
+  "main": "index.html",
+  "scripts": {
+    "test": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jobayer-Ahmed/FoxSec.git"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "jQuery",
+    "Dynamic"
+  ],
+  "author": "Jobayer Ahmed Mickey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jobayer-Ahmed/FoxSec/issues"
+  },
+  "homepage": "https://github.com/Jobayer-Ahmed/FoxSec#readme"
+}
