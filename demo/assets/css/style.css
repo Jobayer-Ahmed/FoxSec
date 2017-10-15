@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	text-align: center;
+}
+
+a, a:hover, a.focus {
+	color: black;
+	text-decoration: none;
+}
+
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	padding-bottom: 10px;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.button {
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+}
+
+.ico {
+	text-align: center;	
+}
+
+.ico a {
+	margin-bottom: 15px;
+}
+
+.name {
+	padding-bottom: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+.tle {
+	text-transform: capitalize;
+}
+
+.ico a, .goIcon {
+	color: #ffffff;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background: #333333;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-size: 20px;
+	line-height: 50px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	margin: 0 10px;
+	border-radius: 300%;
+	cursor: pointer;
+}
+
+.ico a:hover, .goIcon:hover {
+	color: #ffffff;
+	background: #ff2a2afa;
+}
+
+.intro {
+	font-size: 15px;
+	font-weight: 300;
+	color: #333333;
+	font-style: italic;
+	font-weight: 900;
+}
+
+.herounit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.goIcon {
+	margin-top: 50px;
+}
+
+.goIcon:hover {
+	color: #000;
+	background: #fff;
+}
